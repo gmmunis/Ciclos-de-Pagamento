@@ -5,14 +5,16 @@
   "main": "loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start loader.js --name backend" 
+    "production": "pm2 start loader.js --name backend"
   },
   "author": "Guilherme Mariano Munis",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-query-int": "^3.0.0",
+    "jsonwebtoken": "^7.3.0",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.20",
     "mongoose-paginate": "^5.0.3",

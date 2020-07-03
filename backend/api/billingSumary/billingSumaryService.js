@@ -3,7 +3,7 @@ const BillingCycle = require('../billingCycle/billingCycle');
 
 //função middleware
 
-function getSummary(req, res) {
+function getSumary(req, res) {
   BillingCycle.aggregate([{
     $project: {credit: {$sum: "$credits.value"}, debt: {$sum: "$debts.value"}}
   }, {
@@ -19,4 +19,4 @@ function getSummary(req, res) {
   });
 }
 
-module.exports = { getSummary };
+module.exports = { getSumary };
