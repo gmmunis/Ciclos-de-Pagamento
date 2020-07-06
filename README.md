@@ -1,6 +1,8 @@
 # Ciclos-de-Pagamento
 Projeto feito com AngularJs, NodeJs, Express, MongoDB
 
+RODAR O PROJETO NA BRANCH DE AUTENTIFICAÇÃO.
+
 Banco de dados:
 Rodar um banco MongoDB -- mongod
 
